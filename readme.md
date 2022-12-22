@@ -5,6 +5,7 @@
 
 Elaborar el formulario de entrada a una aplicación, considerando lo siguiente:
 
+ ##  Tema Coca Cola
 1. Debe tener toda la estructura de un formulario de Windows
 2. En la parte superior, debe colocar el nombre de la empresa que le tocó
 3. Debe incluir en donde crea conveniente el logotipo de la empresa que le tocó
@@ -17,3 +18,9 @@ impresión de recibos de nómina, reportes para el SAT y salir de la aplicación
 colores)
 8. Hacer un diseño agradable y con estilo
 
+
+## Eleccion de colores
+
+Con la ayuda de esta pagina [US brands Coca Cola Colors](https://usbrandcolors.com/coca-cola-colors/)
+
+![Colores coca cola](https://i.ibb.co/87DrLBm/image.png)
