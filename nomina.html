@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de empleados</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="resources/css/body/botones/boton.css">
+  <link rel="stylesheet" href="resources/css/body/fondo.css">
+  <link rel="stylesheet" href="resources/css/body/links.css">
+  <link rel="stylesheet" href="resources/css/body/navBar/font.css">
+  <link rel="stylesheet" href="resources/css/navBarIcons/navBarIcons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body style="background: red;">
+  <nav class="navbar p-0  " style="background-color: rgb(0, 0, 0)">
+    <div class="container-fluid ">
+      <a class="nav-item links" style="text-decoration:none;" href="index.html">
+        <p class="text-center m-0 "><img src="resources/img/home.png" title="inicio" class="navBarIcons">
+        </p>
+        <p class="text-center navFont">Regresar
+        </p>
+      </a>
+
+
+    </div>
+  </nav>
+</body>
+<main>
+  <div class="row row-cols-1 row-cols-md-4 g-4 pt-5 ">
+    <div class="col"></div>
+
+    <div class="col">
+      <div class="card text-white" style="background-color: black;">
+        <img src="resources/img/calculo.jpg" class="card-img-top" alt="Calculo de nomina">
+        <div class="card-body">
+          <h5 class="card-title">Calculo de nomina</h5>
+          <p class="card-text">Calcular nomima a pagar del empleado</p>
+          <button type="button" class="boton btn btn-light" onclick="mensajeDefault()">CALCULAR NOMINA</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-white" style="background-color: black;">
+        <img src="resources/img/imprimir.jpg" class="card-img-top" alt="Impresion de recibos de nomina">
+        <div class="card-body">
+          <h5 class="card-title">Impresion de recibos de nomina</h5>
+          <p class="card-text">Imprimir recivo de nomina de empleado</p>
+          <button type="button" class="boton btn btn-light" onclick="mensajeDefault()">IMPRIMIR RECIBO</button>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</main>
+<script>
+  function mensajeDefault() {
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Funcion aun no implementada!',
+    })
+  }
+</script>
+
+</html>
