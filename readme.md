@@ -21,6 +21,10 @@ colores)
 
 ## Eleccion de colores
 
-Con la ayuda de esta pagina [US brands Coca Cola Colors](https://usbrandcolors.com/coca-cola-colors/)
+Con la ayuda de esta pagina [US brands Coca Cola Colors](https://usbrandcolors.com/coca-cola-colors/) pudimos darnos una idea de que colores usa la empresa y usarlos aplicando su respectivo codigo de colores en rgb para que sean exactamente iguales a los que usa
 
 ![Colores coca cola](https://i.ibb.co/87DrLBm/image.png)
+
+## Resultado final
+
+![Resultado](https://i.ibb.co/BB6kWkp/Sin-t-tulo-2-20221222-150903.jpg)
